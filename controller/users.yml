@@ -1,0 +1,5 @@
+---
+controller_user_accounts:
+  - user: nagaraj
+    is_superuser: false
+    password: controller_password

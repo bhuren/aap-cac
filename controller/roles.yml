@@ -1,0 +1,10 @@
+---
+controller_roles:
+- user: nagaraj
+  target_team: "TeamA"
+  role: member
+- team: "TeamA"
+  organization: "Innovate"
+  roles:
+    - execute
+    - read
