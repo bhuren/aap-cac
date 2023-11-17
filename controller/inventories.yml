@@ -3,4 +3,7 @@ controller_inventories:
  - name: Innovate Inventory
    organization: Innovate
    description: clone of Demo Inventory for CaC example
+ - name: Demo Inventory2
+   organization: Default
+   description: clone of Demo Inventory for CaC example
 ...

@@ -6,10 +6,12 @@ controller_templates:
    playbook: hello_world.yml
    instance_groups:
      - default
+   inventory: Demo inventory2
  - name: Post provisioning
    project: Demo Project
    playbook: hello_world.yml
    execution_environment: Minimal execution environment
    instance_groups:
      - controlplane
+   inventory: Demo inventory2
 ...
