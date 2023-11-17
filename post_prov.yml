@@ -1,0 +1,5 @@
+---
+- name: Prepare execution-generic environment
+  hosts: all
+  connection: local
+  gather_facts: false
