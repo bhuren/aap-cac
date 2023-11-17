@@ -1,5 +1,9 @@
 ---
-- name: Prepare execution-generic environment
+- name: Gather and display information
   hosts: all
-  connection: local
-  gather_facts: false
+  gather_facts: yes
+
+  tasks:
+    - name: Display gathered facts
+      ansible.builtin.debug:
+        var: ansible_facts
