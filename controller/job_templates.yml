@@ -2,18 +2,14 @@
 controller_templates:
  - name: Server Provisioning
    execution_environment: Default execution environment
-   project: Innovate Project
-   playbook: server_prov.yml
+   project: Demo Project
+   playbook: hello_world.yml
    instance_groups:
      - default
-   inventory: Innovate Inventory
-   organization: Innovate
  - name: Post provisioning
-   project: Innovate Project
-   playbook: post_prov.yml
+   project: Demo Project
+   playbook: hello_world.yml
    execution_environment: Minimal execution environment
    instance_groups:
      - controlplane
-   inventory: Innovate Inventory
-   organization: Innovate
 ...
