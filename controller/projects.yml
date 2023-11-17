@@ -1,7 +1,7 @@
 ---
 controller_projects:
- - name: Innovate Config-As-Code Examples
-   organization: Default
+ - name: Innovate Project
+   organization: Innovate
    scm_branch: main
    scm_clean: 'no'
    scm_delete_on_update: 'no'

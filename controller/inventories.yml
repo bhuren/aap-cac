@@ -1,6 +1,6 @@
 ---
 controller_inventories:
- - name: Demo Inventory2
-   organization: Default
+ - name: Innovate Inventory
+   organization: Innovate
    description: clone of Demo Inventory for CaC example
 ...
